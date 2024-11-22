@@ -1,0 +1,21 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Solution>$(Solution)</Solution>
+    <SolutionTest>$(Solution)_Test</SolutionTest>
+    <SolutionPath>$(MSBuildProjectDirectory)\$(Solution)\$(Solution).csproj</SolutionPath>
+    <SolutionTestPath>$(MSBuildProjectDirectory)\$(SolutionTest)\$(SolutionTest).csproj</SolutionTestPath>
+  </PropertyGroup>
+
+  <Target Name="Build">
+    <Exec Command="dotnet build &quot;$(SolutionPath)&quot;" />
+  </Target>
+
+  <Target Name="Run">
+    <Exec Command="dotnet run --project &quot;$(SolutionPath)&quot;" />
+  </Target>
+
+  <Target Name="Test">
+    <Exec Command="dotnet test &quot;$(SolutionTestPath)&quot;" />
+  </Target>
+
+</Project>
