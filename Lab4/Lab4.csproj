@@ -11,7 +11,7 @@
     <Authors>KostiuchenkoNazarii</Authors>
     <Description>Lab4</Description>
     <ToolCommandName>Lab4</ToolCommandName>
-    <PackageId>IPishta</PackageId>
+    <PackageId>NKostiuchenko</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
