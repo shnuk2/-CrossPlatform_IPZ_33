@@ -8,7 +8,7 @@
     <PackAsTool>true</PackAsTool>
     <OutputType>Exe</OutputType>
     <Version>1.0.6</Version>
-    <Authors>PishtaIhor</Authors>
+    <Authors>KostiuchenkoNazarii</Authors>
     <Description>Lab4</Description>
     <ToolCommandName>Lab4</ToolCommandName>
     <PackageId>IPishta</PackageId>
